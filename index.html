@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="body">
+    <button  class="button1" onclick="myFunction()">DARK</button>
+    <button  class="button2" onclick="myFunction1()">WHITE</button>
+    <div class="main-div">
+      <img
+        src="images/image-equilibrium.jpg"
+        alt="image-equilibrium"
+        class="image-equilibrium"
+      />
+      <div>
+        <h4 style="color: white; margin-top: 2px; margin-left: 15px">
+          Equilibrium#3429
+        </h4>
+      </div>
+      <div class="write">
+        Our Equilibrium collection promotes balance and calm
+      </div>
+      <hr class="line" />
+      <div>
+      <img src="images/image-avatar.png" alt="" class="avatar" />
+      <a class="last-text">Creation of Jules Wyvern</a>
+        
+    </div>
+    <script>
+      function myFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+      function myFunction1() {
+         var element = document.body;
+         element.classList.toggle("white-mode");
+      }
+      </script>
+      
+  </body>
+</html>
