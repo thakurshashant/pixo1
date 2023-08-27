@@ -1,0 +1,106 @@
+.body {
+  height: 100%;
+  background-color: #001133;
+}
+
+.main-div:hover {
+  transform: scale(1.1);
+  transition: all 0.8s ease-in-out;
+}
+.main-div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  height: 400px;
+  background-color: #00004d;
+  border-radius: 15px;
+}
+
+.button1:hover {
+  transform: scale(1.5);
+  transition-duration: 200;
+}
+.button1 {
+  cursor: pointer;
+  color: dimgrey;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.button2:hover {
+  transform: scale(1.5);
+  transition-duration: 200;
+}
+.button2 {
+  cursor: pointer;
+  color: #00004d;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+/*.inner-div {
+  background-color: white;
+  width: 200px;
+  height: 225px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto auto;
+  margin-top: 15px;
+}*/
+
+.image-equilibrium {
+  width: 200px;
+  height: 230px;
+  border-radius: 10px;
+  padding: 5px;
+
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.write {
+  color: white;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.line {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 5%;
+  size: 1px;
+}
+
+.avatar {
+  width: 15%;
+  margin-left: 20px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.last-text {
+  color: gray;
+}
+/*.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*/
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.white-mode {
+  background-color: white;
+  color: black;
+}
